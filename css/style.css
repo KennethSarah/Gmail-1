@@ -426,7 +426,7 @@ font-size: 25px;
  
   
   .main_content .top {
-    font-size: 19px;
+    font-size: 17px;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -453,7 +453,7 @@ padding: 14px;
 
   .nav-container i {
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 25px;
   }
 
@@ -464,7 +464,12 @@ padding: 14px;
 
 
   .mail-chat {
-    margin-left: 15px;
+    margin-left: 5px;
+  }
+
+  .mail-chat-1 {
+    padding-right: 10px;
+  
   }
 
 .nav  .nav-container {
@@ -482,6 +487,7 @@ padding: 14px;
     flex-direction: row;
     padding-left: 25px;
     font-family: inherit;
+    font-size: 17px;
   }
 
  .promotions-item {
