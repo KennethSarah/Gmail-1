@@ -23,6 +23,9 @@
    
   }
 
+  
+
+@media only screen and (min-width: 1080px) {
   p {
     cursor: pointer;
   }
@@ -83,14 +86,7 @@
     cursor: pointer;
     transform: scale(1.03);
   }
-  
-  /* .header {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  } */
-  
+
   .left-area img:hover {
     cursor: pointer;
   }
@@ -127,22 +123,7 @@
     border-radius: 10px;
     background-color: var(--middle-gray);
   }
-  
-/*   .search ion-icon {
-    height: 24px;
-    width: 24px;
-    padding: 8px;
-    border-radius: 50%;
-  }
-  
-  .search input {
-    border: none;
-    outline: none;
-    background-color: var(--middle-gray);
-    padding: 2px;
-    font-size: 18px;
-  } */
-  
+
   .left-area {
     flex: 1;
   }
@@ -198,31 +179,6 @@
   cursor: pointer;
  }
 
- 
-
-  .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
 
   header i ion-icon {
     transition: all 0.3s;
@@ -258,8 +214,6 @@
   .search input::placeholder {
     color: black;
   }
-
-  
 
   .active-button {
     margin-right: 10px;
@@ -323,10 +277,6 @@ margin-right:5px;
 
 .i-class-b {
   padding-right: 68px;
-}
-
-::-webkit-textfield-decoration-container:hover {
-  background-color: black;
 }
 
 
@@ -524,7 +474,7 @@ padding: 14px;
     justify-content: space-between;
     margin-top: 20px;
   }
-/* END */
+
 
   .promotions {
     background-color: #fff;
@@ -773,4 +723,5 @@ padding: 14px;
 
 .input:focus {
   border: 2px solid purple;
+}
 }
