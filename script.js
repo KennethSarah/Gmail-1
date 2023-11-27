@@ -25,98 +25,110 @@ const data = [
   // 4
   {
     sender: "Instagram",
-    date: "Jan 11, 2023",
+    date: "Jan 11",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 5
   {
     sender: "Qatar",
-    date: "Nov 24, 2023",
+    date: "Nov 24",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 6
   {
     sender: "John Mark",
-    date: "Oct 26, 2023",
+    date: "Oct 26",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 7
   {
     sender: "Whatsapp",
-    date: "Dec 21, 2023",
+    date: "Dec 21",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 8
   {
     sender: "Google",
-    date: "Dec 10, 2023",
+    date: "Dec 10",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 9
   {
     sender: "Twitter",
-    date: "May 20, 2023",
+    date: "May 20",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 10
   {
     sender: "Facebook",
-    date: "Feb 23, 2023",
+    date: "Feb 23",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 11
   {
     sender: "Tiktok",
-    date: "Jun 25, 2023",
+    date: "Jun 25",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 12
   {
     sender: "Whatsapp",
-    date: "Sep 28, 2023",
+    date: "Sep 28",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 13
   {
     sender: "Upwork",
-    date: "Jan 17, 2023",
+    date: "Jan 17",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 14
   {
     sender: "LinkedIn",
-    date: "Nov 22, 2023",
+    date: "Nov 22",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 15
   {
     sender: "Facebook",
-    date: "Apr 23, 2023",
+    date: "Apr 23",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 16
   {
     sender: "Instagram",
-    date: "Jul 23, 2023",
+    date: "Jul 23",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
   // 17
   {
     sender: "Twitter",
-    date: "Dec 31, 2023",
+    date: "Dec 31",
+    message:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
+  },
+  {
+    sender: "Twitter",
+    date: "Dec 31",
+    message:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
+  },
+  {
+    sender: "Twitter",
+    date: "Dec 31",
     message:
       " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem libero delectus sint delectus sint adipisicing ...",
   },
@@ -131,7 +143,6 @@ function toggle() {
   formAl.style.display = "block"
   messagesArea.style.marginLeft = "210px"
   messagesArea.style.width = "95%"
-  messagesArea.style.overflow = "auto"
   messagesArea.style.paddingRight = "100px"
 }
 

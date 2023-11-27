@@ -17,7 +17,7 @@
   }
   
   body {
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica,'Roboto','Open Sans', sans-serif;
     background-color: rgba(234, 241, 251, 1);
     overflow: hidden;
    
@@ -200,7 +200,7 @@
     border: 1px;
     justify-content: space-between;
     margin-left: 90px;
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .search input {
@@ -220,11 +220,11 @@
     background-color: rgba(234, 241, 251, 1);
     color: black;
     border: 1px;
-    padding: 20px;
-    padding-right: 50px;
+    padding: 10px;
+    padding-right: 5px;
     border-radius: 20px;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     
   }
@@ -245,11 +245,12 @@
   
 
   .profile-image {
-    width: 45px;
+    width: 30px;
     padding-top: 0;
 border-radius: 50%;
 margin-left: 19px;
 margin-right:5px;
+margin-bottom: 10px;
   }
 
   .gmail-icon {
@@ -257,7 +258,7 @@ margin-right:5px;
   }
 
   .i-class {
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 15px;
     
 }
@@ -270,7 +271,7 @@ margin-right:5px;
 }
 
 .i-class-a {
-  font-size: 32px;
+  font-size: 22px;
   margin-left: 10px;
   margin-right: 70px;
 }
@@ -292,10 +293,12 @@ nav {
     padding: 12px;
     gap: 40px;
     display: none;
+    font-size: 15px;
   }
 
   .nav_top {
     margin-top: 52px;
+    font-size: 15px;
   }
 
   .nav_top button {
@@ -311,9 +314,9 @@ nav {
     background-color: var(--light-blue);
     display: flex;
     justify-content: space-between;
-    padding: 20px 32px;
+    padding: 10px 32px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     cursor: pointer;
     margin-left: 20px;
@@ -325,7 +328,7 @@ nav {
   }
   
   .nav_middle ul li {
-    font-size: 14px;
+    font-size: 13px;
     list-style: none;
     margin-left: 4px;
     margin-bottom: 4px;
@@ -338,7 +341,7 @@ nav {
     letter-spacing: 1px;
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .nav_middle ul li a ion-icon,
@@ -362,6 +365,7 @@ nav {
   
   .nav_middle ul li:first-child span {
     margin-right: 8px;
+    font-size: 15px;
   }
   
   .nav_middle ul li:first-child a,
@@ -426,7 +430,7 @@ font-size: 25px;
  
   
   .main_content .top {
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -449,12 +453,13 @@ transition: 0.5s;
 font-family: inherit;
 margin-left: 0px;
 padding: 14px;
+font-size: 15px;
   }
 
   .nav-container i {
     font-weight: 600;
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
 .bi-list {
@@ -487,7 +492,7 @@ padding: 14px;
     flex-direction: row;
     padding-left: 25px;
     font-family: inherit;
-    font-size: 17px;
+    font-size: 12px;
   }
 
  .promotions-item {
@@ -495,6 +500,13 @@ padding: 14px;
   padding-right: 80px;
   padding-left: 30px;
 
+ }
+
+ .promotions-item .four {
+  background-color: lightgreen;
+  border-radius: 30px;
+  padding: 7px;
+  font-size: 15px;
  }
   
 .promotions-item:hover {
@@ -547,6 +559,7 @@ padding: 14px;
     justify-content: center;
     align-items: center;
     gap: 12px;
+    font-weight: 1000;
   }
   
   .messages_area {
@@ -556,9 +569,17 @@ padding: 14px;
     overflow-y: scroll;
     border-top: 1px solid black;
   }
+
+  .messages_content {
+    font-weight: 1000;
+  }
+
+  .messages_left .span-1 {
+    font-weight: 1000;
+  }
   
   .messages {
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -600,8 +621,8 @@ padding: 14px;
     height: 40px;
     padding: 8px;
     border-radius: 50%;
-    width: 52px;
-    height: 52px;
+    width: 42px;
+    height: 42px;
   }
   
   .aside_icons span {
